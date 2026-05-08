@@ -1,3 +1,13 @@
+/**
+ * Laboratory Exercise 03: Dice Battle Arena
+ * 
+ * This program demonstrates the use of the following Java API classes:
+ * 1. java.util.ArrayList - Used to store the dynamic list of Fighter objects.
+ * 2. java.util.Collections - Used for shuffling the turn order of fighters.
+ * 3. java.util.Random - Used for selecting targets and determining attack types.
+ * 4. java.lang.Math - Used for ensuring HP does not drop below zero via Math.max().
+ */
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Random;
